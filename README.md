@@ -11,7 +11,7 @@ The 680x0 specific code has been written by Mikael Kalms (mikael@kalms.org).
 
 #Performance
 
-The 68k decoder decodes approximately 50k samples/seconds on an Atari ST.
+The 68k decoder decodes approximately 50k samples/second on an 8MHz Atari ST.
 
 The Amiga replay routine will decompress samples during each VBlank, taking typically <5 scanlines on a 68060@50MHz.
 
