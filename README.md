@@ -2,9 +2,9 @@
 
 This archive contains three things:
 
-1) a WAV<->ADPCM codec written in C, both source and executable included
-2) an ADPCM decoder optimized for 68000
-3) an ADPCM replayer for Amiga, including a Paula audio driver
+* a WAV<->ADPCM codec written in C, both source and executable included
+* an ADPCM decoder optimized for 68000
+* an ADPCM replayer for Amiga, including a Paula audio driver
 
 The C codec is reference code from Stichting Mathematisch Centrum (see source code for copyright).
 The 680x0 specific code has been written by Mikael Kalms (mikael@kalms.org).
