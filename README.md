@@ -23,3 +23,5 @@ v2.0: implemented replay of stereo samples
 
 v2.1: changed mixahead calculation such that it supports both PAL-nointerlace and PAL-interlace screenmodes
       removed all FPU usage
+
+v2.2: bugfix when reinitializing AdpcmSource
