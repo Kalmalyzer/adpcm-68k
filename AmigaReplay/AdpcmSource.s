@@ -322,6 +322,7 @@ AdpcmSource_InitTables
 		dbf	d2,.delta
 		dbf	d0,.index2
 
+		st	AdpcmSource_TablesInitialized
 		movem.l	(sp)+,d2-d4
 .done		rts
 
