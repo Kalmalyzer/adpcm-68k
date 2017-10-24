@@ -25,3 +25,5 @@ v2.1: changed mixahead calculation such that it supports both PAL-nointerlace an
       removed all FPU usage
 
 v2.2: bugfix when reinitializing AdpcmSource
+
+v2.3: Implemented chunk-based decoding for 68k version, plus 8bit output
