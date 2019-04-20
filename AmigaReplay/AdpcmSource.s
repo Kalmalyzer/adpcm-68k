@@ -613,7 +613,7 @@ AdpcmSource_DecodeSamples_14BitMonoOutput
 
 		move.l	d0,(a0)+
 		lsl.l	#8,d1
-		or.l	d1,d5
+		eor.l	d1,d5
 
 		lsr.l	#2,d5
 		and.l	#$3f3f3f3f,d5

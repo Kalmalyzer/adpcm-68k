@@ -27,3 +27,6 @@ v2.1: changed mixahead calculation such that it supports both PAL-nointerlace an
 v2.2: bugfix when reinitializing AdpcmSource
 
 v2.3: Implemented chunk-based decoding for 68k version, plus 8bit output
+
+v2.4: Fixed ridiculous bug in 14bit-output of realtime ADPCM replayer for Amiga. Sometimes, the lower 6 bits would be incorrect!
+14bit output sound quality is where it should be now.
