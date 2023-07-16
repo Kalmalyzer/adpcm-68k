@@ -7,7 +7,7 @@ This archive contains three things:
 * an ADPCM replayer for Amiga, including a Paula audio driver
 
 The C codec is reference code from Stichting Mathematisch Centrum (see source code for copyright).
-The 680x0 specific code has been written by Mikael Kalms (mikael@kalms.org).
+The 680x0 specific code has been written by Mikael Kalms (mikael@kalms.org) (see LICENSE.md for copyright).
 
 #Performance
 
